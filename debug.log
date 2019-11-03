@@ -1,0 +1,745 @@
+[2019-10-21 09:30:29 INF] Starting the service, version 1.0.1017.1400...
+[2019-10-21 09:30:29 INF] Autodetecting local printers...
+[2019-10-21 09:30:29 INF] Keep Alive Background Service is started.
+[2019-10-21 09:30:29 INF] Probing bg.dt.x.isl.com://COM1...
+[2019-10-21 09:30:29 INF] Probing bg.dt.x.isl.com://COM10...
+[2019-11-03 19:39:39 INF] Opening the com port COM10
+[2019-11-03 19:39:39 INF] bg.zk.zfp.com://COM10 >>> Pong: 40
+[2019-11-03 19:39:39 INF] bg.zk.zfp.com://COM10 <<< 02-23-42-68-30-39-0A
+[2019-11-03 19:39:39 INF] bg.zk.zfp.com://COM10 >>> 02
+[2019-11-03 19:39:39 INF] bg.zk.zfp.com://COM10 >>> 33-42-68-30-33-2D-31-31-2D-32-30-31-39-20-31-39-3A-33-39-30-38-0A
+[2019-11-03 19:39:39 INF] Keep Alive Background Service done.
+[2019-11-03 19:39:40 INF] Idle timer elapsed for the com port COM10
+[2019-11-03 19:39:40 INF] Closing the com port COM10
+[2019-11-03 19:40:19 INF] Request starting HTTP/1.0 POST http://192.168.0.100:8001/printers/zk135143/receipt?asyncTimeout=0 application/json 13842
+[2019-11-03 19:40:19 INF] -- HTTP Request -- POST: http://192.168.0.100:8001/printers/zk135143/receipt?asyncTimeout=0, Body(11950):
+{
+"uniqueSaleNumber":"ZK135143-0001-0000053",
+"operator":"1",
+"operatorPassword":"0",
+"items":[
+{"type":"comment","text":"Торбичка до 5кг"},
+{"type":"comment","text":"Количество               1.000"},
+{"type":"comment","text":"Ед.цена                   0.20"},
+{"type":"comment","text":"Сума*Б                    0.20"},
+{"type":"comment","text":"Торбичка до 10кг"},
+{"type":"comment","text":"Количество               1.000"},
+{"type":"comment","text":"Ед.цена                   0.30"},
+{"type":"comment","text":"Сума*Б                    0.30"},
+{"type":"comment","text":"Комплект отверки -китайски"},
+{"type":"comment","text":"Количество               1.000"},
+{"type":"comment","text":"Ед.цена                   3.60"},
+{"type":"comment","text":"Сума*Б                    3.60"},
+{"type":"comment","text":"Комплект отверки -немски"},
+{"type":"comment","text":"Количество               1.000"},
+{"type":"comment","text":"Ед.цена                  10.80"},
+{"type":"comment","text":"Сума*Б                   10.80"},
+{"type":"comment","text":"Цимент 25 кг сив"},
+{"type":"comment","text":"Количество               1.000"},
+{"type":"comment","text":"Ед.цена                   5.25"},
+{"type":"comment","text":"Сума*Б                    5.25"},
+{"type":"comment","text":"Цимент 25 кг зелен "},
+{"type":"comment","text":"Количество               1.000"},
+{"type":"comment","text":"Ед.цена                   4.90"},
+{"type":"comment","text":"Сума*Б                    4.90"},
+{"type":"comment","text":"Гипсокартон - влагоустойчив"},
+{"type":"comment","text":"Количество               1.000"},
+{"type":"comment","text":"Ед.цена                   8.00"},
+{"type":"comment","text":"Сума*Б                    8.00"},
+{"type":"comment","text":"Гипсокартон - нормален"},
+{"type":"comment","text":"Количество               1.000"},
+{"type":"comment","text":"Ед.цена                   7.60"},
+{"type":"comment","text":"Сума*Б                    7.60"},
+{"type":"comment","text":"Торбичка до 5кг"},
+{"type":"comment","text":"Количество               1.000"},
+{"type":"comment","text":"Ед.цена                   0.20"},
+{"type":"comment","text":"Сума*Б                    0.20"},
+{"type":"comment","text":"Торбичка до 10кг"},
+{"type":"comment","text":"Количество               1.000"},
+{"type":"comment","text":"Ед.цена                   0.30"},
+{"type":"comment","text":"Сума*Б                    0.30"},
+{"type":"comment","text":"Комплект отверки -китайски"},
+{"type":"comment","text":"Количество               1.000"},
+{"type":"comment","text":"Ед.цена                   3.60"},
+{"type":"comment","text":"Сума*Б                    3.60"},
+{"type":"comment","text":"Комплект отверки -немски"},
+{"type":"comment","text":"Количество               1.000"},
+{"type":"comment","text":"Ед.цена                  10.80"},
+{"type":"comment","text":"Сума*Б                   10.80"},
+{"type":"comment","text":"Цимент 25 кг сив"},
+{"type":"comment","text":"Количество               1.000"},
+{"type":"comment","text":"Ед.цена                   5.25"},
+{"type":"comment","text":"Сума*Б                    5.25"},
+{"type":"comment","text":"Цимент 25 кг зелен "},
+{"type":"comment","text":"Количество               1.000"},
+{"type":"comment","text":"Ед.цена                   4.90"},
+{"type":"comment","text":"Сума*Б                    4.90"},
+{"type":"comment","text":"Гипсокартон - влагоустойчив"},
+{"type":"comment","text":"Количество               1.000"},
+{"type":"comment","text":"Ед.цена                   8.00"},
+{"type":"comment","text":"Сума*Б                    8.00"},
+{"type":"comment","text":"Гипсокартон - нормален"},
+{"type":"comment","text":"Количество               1.000"},
+{"type":"comment","text":"Ед.цена                   7.60"},
+{"type":"comment","text":"Сума*Б                    7.60"},
+{"type":"comment","text":"Торбичка до 5кг"},
+{"type":"comment","text":"Количество               1.000"},
+{"type":"comment","text":"Ед.цена                   0.20"},
+{"type":"comment","text":"Сума*Б                    0.20"},
+{"type":"comment","text":"Торбичка до 10кг"},
+{"type":"comment","text":"Количество               1.000"},
+{"type":"comment","text":"Ед.цена                   0.30"},
+{"type":"comment","text":"Сума*Б                    0.30"},
+{"type":"comment","text":"Комплект отверки -китайски"},
+{"type":"comment","text":"Количество               1.000"},
+{"type":"comment","text":"Ед.цена                   3.60"},
+{"type":"comment","text":"Сума*Б                    3.60"},
+{"type":"comment","text":"Комплект отверки -немски"},
+{"type":"comment","text":"Количество               1.000"},
+{"type":"comment","text":"Ед.цена                  10.80"},
+{"type":"comment","text":"Сума*Б                   10.80"},
+{"type":"comment","text":"Цимент 25 кг сив"},
+{"type":"comment","text":"Количество               1.000"},
+{"type":"comment","text":"Ед.цена                   5.25"},
+{"type":"comment","text":"Сума*Б                    5.25"},
+{"type":"comment","text":"Цимент 25 кг зелен "},
+{"type":"comment","text":"Количество               1.000"},
+{"type":"comment","text":"Ед.цена                   4.90"},
+{"type":"comment","text":"Сума*Б                    4.90"},
+{"type":"comment","text":"Гипсокартон - влагоустойчив"},
+{"type":"comment","text":"Количество               1.000"},
+{"type":"comment","text":"Ед.цена                   8.00"},
+{"type":"comment","text":"Сума*Б                    8.00"},
+{"type":"comment","text":"Гипсокартон - нормален"},
+{"type":"comment","text":"Количество               1.000"},
+{"type":"comment","text":"Ед.цена                   7.60"},
+{"type":"comment","text":"Сума*Б                    7.60"},
+{"type":"comment","text":"Торбичка до 5кг"},
+{"type":"comment","text":"Количество               1.000"},
+{"type":"comment","text":"Ед.цена                   0.20"},
+{"type":"comment","text":"Сума*Б                    0.20"},
+{"type":"comment","text":"Торбичка до 10кг"},
+{"type":"comment","text":"Количество               1.000"},
+{"type":"comment","text":"Ед.цена                   0.30"},
+{"type":"comment","text":"Сума*Б                    0.30"},
+{"type":"comment","text":"Комплект отверки -китайски"},
+{"type":"comment","text":"Количество               1.000"},
+{"type":"comment","text":"Ед.цена                   3.60"},
+{"type":"comment","text":"Сума*Б                    3.60"},
+{"type":"comment","text":"Комплект отверки -немски"},
+{"type":"comment","text":"Количество               1.000"},
+{"type":"comment","text":"Ед.цена                  10.80"},
+{"type":"comment","text":"Сума*Б                   10.80"},
+{"type":"comment","text":"Цимент 25 кг сив"},
+{"type":"comment","text":"Количество               1.000"},
+{"type":"comment","text":"Ед.цена                   5.25"},
+{"type":"comment","text":"Сума*Б                    5.25"},
+{"type":"comment","text":"Цимент 25 кг зелен "},
+{"type":"comment","text":"Количество               1.000"},
+{"type":"comment","text":"Ед.цена                   4.90"},
+{"type":"comment","text":"Сума*Б                    4.90"},
+{"type":"comment","text":"Гипсокартон - влагоустойчив"},
+{"type":"comment","text":"Количество               1.000"},
+{"type":"comment","text":"Ед.цена                   8.00"},
+{"type":"comment","text":"Сума*Б                    8.00"},
+{"type":"comment","text":"Гипсокартон - нормален"},
+{"type":"comment","text":"Количество               1.000"},
+{"type":"comment","text":"Ед.цена                   7.60"},
+{"type":"comment","text":"Сума*Б                    7.60"},
+{"type":"comment","text":"Торбичка до 5кг"},
+{"type":"comment","text":"Количество               1.000"},
+{"type":"comment","text":"Ед.цена                   0.20"},
+{"type":"comment","text":"Сума*Б                    0.20"},
+{"type":"comment","text":"Торбичка до 10кг"},
+{"type":"comment","text":"Количество               1.000"},
+{"type":"comment","text":"Ед.цена                   0.30"},
+{"type":"comment","text":"Сума*Б                    0.30"},
+{"type":"comment","text":"Комплект отверки -китайски"},
+{"type":"comment","text":"Количество               1.000"},
+{"type":"comment","text":"Ед.цена                   3.60"},
+{"type":"comment","text":"Сума*Б                    3.60"},
+{"type":"comment","text":"Комплект отверки -немски"},
+{"type":"comment","text":"Количество               1.000"},
+{"type":"comment","text":"Ед.цена                  10.80"},
+{"type":"comment","text":"Сума*Б                   10.80"},
+{"type":"comment","text":"Цимент 25 кг сив"},
+{"type":"comment","text":"Количество               1.000"},
+{"type":"comment","text":"Ед.цена                   5.25"},
+{"type":"comment","text":"Сума*Б                    5.25"},
+{"type":"comment","text":"Цимент 25 кг зелен "},
+{"type":"comment","text":"Количество               1.000"},
+{"type":"comment","text":"Ед.цена                   4.90"},
+{"type":"comment","text":"Сума*Б                    4.90"},
+{"type":"comment","text":"Гипсокартон - влагоустойчив"},
+{"type":"comment","text":"Количество               1.000"},
+{"type":"comment","text":"Ед.цена                   8.00"},
+{"type":"comment","text":"Сума*Б                    8.00"},
+{"type":"comment","text":"Гипсокартон - нормален"},
+{"type":"comment","text":"Количество               1.000"},
+{"type":"comment","text":"Ед.цена                   7.60"},
+{"type":"comment","text":"Сума*Б                    7.60"},
+{"type":"comment","text":"Торбичка до 5кг"},
+{"type":"comment","text":"Количество               1.000"},
+{"type":"comment","text":"Ед.цена                   0.20"},
+{"type":"comment","text":"Сума*Б                    0.20"},
+{"type":"comment","text":"Торбичка до 10кг"},
+{"type":"comment","text":"Количество               1.000"},
+{"type":"comment","text":"Ед.цена                   0.30"},
+{"type":"comment","text":"Сума*Б                    0.30"},
+{"type":"comment","text":"Комплект отверки -китайски"},
+{"type":"comment","text":"Количество               1.000"},
+{"type":"comment","text":"Ед.цена                   3.60"},
+{"type":"comment","text":"Сума*Б                    3.60"},
+{"type":"comment","text":"Комплект отверки -немски"},
+{"type":"comment","text":"Количество               1.000"},
+{"type":"comment","text":"Ед.цена                  10.80"},
+{"type":"comment","text":"Сума*Б                   10.80"},
+{"type":"comment","text":"Цимент 25 кг сив"},
+{"type":"comment","text":"Количество               1.000"},
+{"type":"comment","text":"Ед.цена                   5.25"},
+{"type":"comment","text":"Сума*Б                    5.25"},
+{"type":"comment","text":"Цимент 25 кг зелен "},
+{"type":"comment","text":"Количество               1.000"},
+{"type":"comment","text":"Ед.цена                   4.90"},
+{"type":"comment","text":"Сума*Б                    4.90"},
+{"type":"comment","text":"Гипсокартон - влагоустойчив"},
+{"type":"comment","text":"Количество               1.000"},
+{"type":"comment","text":"Ед.цена                   8.00"},
+{"type":"comment","text":"Сума*Б                    8.00"},
+{"type":"comment","text":"Гипсокартон - нормален"},
+{"type":"comment","text":"Количество               1.000"},
+{"type":"comment","text":"Ед.цена                   7.60"},
+{"type":"comment","text":"Сума*Б                    7.60"},
+{"type":"comment","text":"Торбичка до 5кг"},
+{"type":"comment","text":"Количество               1.000"},
+{"type":"comment","text":"Ед.цена                   0.20"},
+{"type":"comment","text":"Сума*Б                    0.20"},
+{"type":"comment","text":"Торбичка до 10кг"},
+{"type":"comment","text":"Количество               1.000"},
+{"type":"comment","text":"Ед.цена                   0.30"},
+{"type":"comment","text":"Сума*Б                    0.30"},
+{"text":"Обща сума","quantity":1,"unitPrice":244.4,"taxGroup":2}
+],
+"payments":[
+{"amount":244.40,"paymentType":"cash"}
+]}
+
+[2019-11-03 19:40:19 INF] Executing endpoint 'ErpNet.FP.Server.Controllers.PrintersController.PrintReceipt (ErpNet.FP.Server)'
+[2019-11-03 19:40:19 INF] Route matched with {action = "PrintReceipt", controller = "Printers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PrintReceipt(System.String, ErpNet.FP.Core.Receipt, System.String, Int32) on controller ErpNet.FP.Server.Controllers.PrintersController (ErpNet.FP.Server).
+[2019-11-03 19:40:19 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:19 INF] Executing ObjectResult, writing value of type 'ErpNet.FP.Core.Service.TaskIdResult'.
+[2019-11-03 19:40:19 INF] Opening the com port COM10
+[2019-11-03 19:40:19 INF] bg.zk.zfp.com://COM10 >>> Pong: 40
+[2019-11-03 19:40:19 INF] bg.zk.zfp.com://COM10 <<< 02-23-43-39-35-39-0A
+[2019-11-03 19:40:19 INF] bg.zk.zfp.com://COM10 >>> 06
+[2019-11-03 19:40:19 INF] bg.zk.zfp.com://COM10 >>> 43-30-32-34-31-0A
+[2019-11-03 19:40:19 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:19 INF] bg.zk.zfp.com://COM10 >>> Pong: 40
+[2019-11-03 19:40:19 INF] bg.zk.zfp.com://COM10 <<< 02-42-44-30-31-3B-30-3B-31-3B-31-3B-34-24-5A-4B-31-33-35-31-34-33-2D-30-30-30-31-2D-30-30-30-30-30-35-33-30-30-0A
+[2019-11-03 19:40:19 INF] Executed action ErpNet.FP.Server.Controllers.PrintersController.PrintReceipt (ErpNet.FP.Server) in 168.0951ms
+[2019-11-03 19:40:19 INF] Executed endpoint 'ErpNet.FP.Server.Controllers.PrintersController.PrintReceipt (ErpNet.FP.Server)'
+[2019-11-03 19:40:19 INF] -- HTTP Response -- Code: 200, Body(35):
+{"taskId":"4HjmiKegpEK8JdJ0hSgQ6Q"}
+[2019-11-03 19:40:19 INF] HTTP POST /printers/zk135143/receipt?asyncTimeout=0 responded 200 in 169.4641 ms
+[2019-11-03 19:40:19 INF] Request finished in 169.862ms 200 application/json; charset=utf-8
+[2019-11-03 19:40:19 INF] bg.zk.zfp.com://COM10 >>> 06
+[2019-11-03 19:40:19 INF] bg.zk.zfp.com://COM10 >>> 44-30-30-34-34-0A
+[2019-11-03 19:40:19 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> Pong: 40
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 <<< 02-23-45-60-30-36-0A
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> 02
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> 34-45-60-5A-4B-31-33-35-31-34-33-3B-35-30-31-37-32-33-32-39-33-33-0A
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> Pong: 40
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 <<< 02-23-46-21-34-34-0A
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> 02
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> 63-46-21-31-3B-37-36-30-3B-31-32-2D-31-32-2D-32-30-31-38-20-30-38-3A-30-30-3B-54-52-45-4D-4F-4C-20-41-31-39-20-50-6C-75-73-3B-20-56-65-72-2E-31-2E-30-31-20-54-52-41-31-39-20-43-2E-53-2E-36-41-30-39-3B-32-38-0A
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> Pong: 40
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 <<< 02-32-47-37-D2-EE-F0-E1-E8-F7-EA-E0-20-E4-EE-20-35-EA-E3-34-3C-0A
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> 06
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> 47-30-30-34-37-0A
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> Pong: 40
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 <<< 02-41-48-37-CA-EE-EB-E8-F7-E5-F1-F2-E2-EE-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-31-2E-30-30-30-30-3B-0A
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> 06
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> 48-30-30-34-38-0A
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> Pong: 40
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 <<< 02-41-49-37-C5-E4-2E-F6-E5-ED-E0-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-30-2E-32-30-31-32-0A
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> 06
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> 49-30-30-34-39-0A
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> Pong: 40
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 <<< 02-41-4A-37-D1-F3-EC-E0-2A-C1-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-30-2E-32-30-3E-35-0A
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> 06
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> 4A-30-30-34-3A-0A
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> Pong: 40
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 <<< 02-33-4B-37-D2-EE-F0-E1-E8-F7-EA-E0-20-E4-EE-20-31-30-EA-E3-37-35-0A
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> 06
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> 4B-30-30-34-3B-0A
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> Pong: 40
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 <<< 02-41-4C-37-CA-EE-EB-E8-F7-E5-F1-F2-E2-EE-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-31-2E-30-30-30-30-3F-0A
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> 06
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> 4C-30-30-34-3C-0A
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> Pong: 40
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 <<< 02-41-4D-37-C5-E4-2E-F6-E5-ED-E0-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-30-2E-33-30-31-37-0A
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> 06
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> 4D-30-30-34-3D-0A
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> Pong: 40
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 <<< 02-41-4E-37-D1-F3-EC-E0-2A-C1-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-30-2E-33-30-3E-30-0A
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> 06
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> 4E-30-30-34-3E-0A
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> Pong: 40
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 <<< 02-3D-4F-37-CA-EE-EC-EF-EB-E5-EA-F2-20-EE-F2-E2-E5-F0-EA-E8-20-2D-EA-E8-F2-E0-E9-F1-EA-E8-3B-3A-0A
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> 06
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> 4F-30-30-34-3F-0A
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> Pong: 40
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 <<< 02-41-50-37-CA-EE-EB-E8-F7-E5-F1-F2-E2-EE-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-31-2E-30-30-30-31-33-0A
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> 06
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> 50-30-30-35-30-0A
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> Pong: 40
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 <<< 02-41-51-37-C5-E4-2E-F6-E5-ED-E0-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-33-2E-36-30-30-3D-0A
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> 06
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> 51-30-30-35-31-0A
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> Pong: 40
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 <<< 02-41-52-37-D1-F3-EC-E0-2A-C1-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-33-2E-36-30-3F-3A-0A
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> 06
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> 52-30-30-35-32-0A
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> Pong: 40
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 <<< 02-3B-53-37-CA-EE-EC-EF-EB-E5-EA-F2-20-EE-F2-E2-E5-F0-EA-E8-20-2D-ED-E5-EC-F1-EA-E8-3B-3D-0A
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> 06
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> 53-30-30-35-33-0A
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> Pong: 40
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 <<< 02-41-54-37-CA-EE-EB-E8-F7-E5-F1-F2-E2-EE-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-31-2E-30-30-30-31-37-0A
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> 06
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> 54-30-30-35-34-0A
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> Pong: 40
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 <<< 02-41-55-37-C5-E4-2E-F6-E5-ED-E0-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-31-30-2E-38-30-31-35-0A
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> 06
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> 55-30-30-35-35-0A
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> Pong: 40
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 <<< 02-41-56-37-D1-F3-EC-E0-2A-C1-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-31-30-2E-38-30-3E-32-0A
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> 06
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> 56-30-30-35-36-0A
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> Pong: 40
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 <<< 02-33-57-37-D6-E8-EC-E5-ED-F2-20-32-35-20-EA-E3-20-F1-E8-E2-3A-3E-0A
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> 06
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> 57-30-30-35-37-0A
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> Pong: 40
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 <<< 02-41-58-37-CA-EE-EB-E8-F7-E5-F1-F2-E2-EE-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-31-2E-30-30-30-31-3B-0A
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> 06
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> 58-30-30-35-38-0A
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> Pong: 40
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 <<< 02-41-59-37-C5-E4-2E-F6-E5-ED-E0-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-35-2E-32-35-30-32-0A
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> 06
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> 59-30-30-35-39-0A
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> Pong: 40
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 <<< 02-41-5A-37-D1-F3-EC-E0-2A-C1-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-35-2E-32-35-3F-35-0A
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> 06
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> 5A-30-30-35-3A-0A
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> Pong: 40
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 <<< 02-36-5B-37-D6-E8-EC-E5-ED-F2-20-32-35-20-EA-E3-20-E7-E5-EB-E5-ED-20-39-3D-0A
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> 06
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> 5B-30-30-35-3B-0A
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> Pong: 40
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 <<< 02-41-5C-37-CA-EE-EB-E8-F7-E5-F1-F2-E2-EE-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-31-2E-30-30-30-31-3F-0A
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> 06
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> 5C-30-30-35-3C-0A
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> Pong: 40
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 <<< 02-41-5D-37-C5-E4-2E-F6-E5-ED-E0-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-34-2E-39-30-30-39-0A
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> 06
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> 5D-30-30-35-3D-0A
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> Pong: 40
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 <<< 02-41-5E-37-D1-F3-EC-E0-2A-C1-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-34-2E-39-30-3F-3E-0A
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> 06
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> 5E-30-30-35-3E-0A
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> Pong: 40
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 <<< 02-3E-5F-37-C3-E8-EF-F1-EE-EA-E0-F0-F2-EE-ED-20-2D-20-E2-EB-E0-E3-EE-F3-F1-F2-EE-E9-F7-E8-E2-34-35-0A
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> 06
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 >>> 5F-30-30-35-3F-0A
+[2019-11-03 19:40:20 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:21 INF] bg.zk.zfp.com://COM10 >>> Pong: 40
+[2019-11-03 19:40:21 INF] bg.zk.zfp.com://COM10 <<< 02-41-60-37-CA-EE-EB-E8-F7-E5-F1-F2-E2-EE-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-31-2E-30-30-30-32-33-0A
+[2019-11-03 19:40:21 INF] bg.zk.zfp.com://COM10 >>> 06
+[2019-11-03 19:40:21 INF] bg.zk.zfp.com://COM10 >>> 60-30-30-36-30-0A
+[2019-11-03 19:40:21 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:21 INF] bg.zk.zfp.com://COM10 >>> Pong: 40
+[2019-11-03 19:40:21 INF] bg.zk.zfp.com://COM10 <<< 02-41-61-37-C5-E4-2E-F6-E5-ED-E0-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-38-2E-30-30-33-30-0A
+[2019-11-03 19:40:21 INF] bg.zk.zfp.com://COM10 >>> 06
+[2019-11-03 19:40:21 INF] bg.zk.zfp.com://COM10 >>> 61-30-30-36-31-0A
+[2019-11-03 19:40:21 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:21 INF] bg.zk.zfp.com://COM10 >>> Pong: 40
+[2019-11-03 19:40:21 INF] bg.zk.zfp.com://COM10 <<< 02-41-62-37-D1-F3-EC-E0-2A-C1-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-38-2E-30-30-3C-37-0A
+[2019-11-03 19:40:21 INF] bg.zk.zfp.com://COM10 >>> 06
+[2019-11-03 19:40:21 INF] bg.zk.zfp.com://COM10 >>> 62-30-30-36-32-0A
+[2019-11-03 19:40:21 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:21 INF] bg.zk.zfp.com://COM10 >>> Pong: 40
+[2019-11-03 19:40:21 INF] bg.zk.zfp.com://COM10 <<< 02-39-63-37-C3-E8-EF-F1-EE-EA-E0-F0-F2-EE-ED-20-2D-20-ED-EE-F0-EC-E0-EB-E5-ED-38-3C-0A
+[2019-11-03 19:40:21 INF] bg.zk.zfp.com://COM10 >>> 06
+[2019-11-03 19:40:21 INF] bg.zk.zfp.com://COM10 >>> 63-30-30-36-33-0A
+[2019-11-03 19:40:21 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:21 INF] bg.zk.zfp.com://COM10 >>> Pong: 40
+[2019-11-03 19:40:21 INF] bg.zk.zfp.com://COM10 <<< 02-41-64-37-CA-EE-EB-E8-F7-E5-F1-F2-E2-EE-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-31-2E-30-30-30-32-37-0A
+[2019-11-03 19:40:21 INF] bg.zk.zfp.com://COM10 >>> 06
+[2019-11-03 19:40:21 INF] bg.zk.zfp.com://COM10 >>> 64-30-30-36-34-0A
+[2019-11-03 19:40:21 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:21 INF] bg.zk.zfp.com://COM10 >>> Pong: 40
+[2019-11-03 19:40:21 INF] bg.zk.zfp.com://COM10 <<< 02-41-65-37-C5-E4-2E-F6-E5-ED-E0-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-37-2E-36-30-33-3D-0A
+[2019-11-03 19:40:21 INF] bg.zk.zfp.com://COM10 >>> 06
+[2019-11-03 19:40:21 INF] bg.zk.zfp.com://COM10 >>> 65-30-30-36-35-0A
+[2019-11-03 19:40:21 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:21 INF] bg.zk.zfp.com://COM10 >>> Pong: 40
+[2019-11-03 19:40:21 INF] bg.zk.zfp.com://COM10 <<< 02-41-66-37-D1-F3-EC-E0-2A-C1-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-37-2E-36-30-3C-3A-0A
+[2019-11-03 19:40:21 INF] bg.zk.zfp.com://COM10 >>> 06
+[2019-11-03 19:40:21 INF] bg.zk.zfp.com://COM10 >>> 66-30-30-36-36-0A
+[2019-11-03 19:40:21 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:21 INF] bg.zk.zfp.com://COM10 >>> Pong: 40
+[2019-11-03 19:40:21 INF] bg.zk.zfp.com://COM10 <<< 02-32-67-37-D2-EE-F0-E1-E8-F7-EA-E0-20-E4-EE-20-35-EA-E3-36-3C-0A
+[2019-11-03 19:40:21 INF] bg.zk.zfp.com://COM10 >>> 06
+[2019-11-03 19:40:21 INF] bg.zk.zfp.com://COM10 >>> 67-30-30-36-37-0A
+[2019-11-03 19:40:21 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:21 INF] bg.zk.zfp.com://COM10 >>> Pong: 40
+[2019-11-03 19:40:21 INF] bg.zk.zfp.com://COM10 <<< 02-41-68-37-CA-EE-EB-E8-F7-E5-F1-F2-E2-EE-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-31-2E-30-30-30-32-3B-0A
+[2019-11-03 19:40:21 INF] bg.zk.zfp.com://COM10 >>> 06
+[2019-11-03 19:40:21 INF] bg.zk.zfp.com://COM10 >>> 68-30-30-36-38-0A
+[2019-11-03 19:40:21 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:21 INF] bg.zk.zfp.com://COM10 >>> Pong: 40
+[2019-11-03 19:40:21 INF] bg.zk.zfp.com://COM10 <<< 02-41-69-37-C5-E4-2E-F6-E5-ED-E0-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-30-2E-32-30-33-32-0A
+[2019-11-03 19:40:21 INF] bg.zk.zfp.com://COM10 >>> 06
+[2019-11-03 19:40:21 INF] bg.zk.zfp.com://COM10 >>> 69-30-30-36-39-0A
+[2019-11-03 19:40:21 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:21 INF] bg.zk.zfp.com://COM10 >>> Pong: 40
+[2019-11-03 19:40:21 INF] bg.zk.zfp.com://COM10 <<< 02-41-6A-37-D1-F3-EC-E0-2A-C1-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-20-30-2E-32-30-3C-35-0A
+[2019-11-03 19:40:21 ERR] Timeout occured while reading from com port 'COM10'
+[2019-11-03 19:40:21 INF] bg.zk.zfp.com://COM10 Cannot read from channel: Timeout occured while reading from com port 'COM10'
+[2019-11-03 19:40:21 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:21 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:21 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:21 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:21 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 41
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> Pong: 40
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 <<< 02-23-6B-39-37-31-0A
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> 06
+[2019-11-03 19:40:22 INF] bg.zk.zfp.com://COM10 >>> 6B-30-30-36-3B-0A
+[2019-11-03 19:40:23 INF] Idle timer elapsed for the com port COM10
+[2019-11-03 19:40:23 INF] Closing the com port COM10
+[2019-11-03 19:41:39 INF] Keep Alive Background Service running...
+[2019-11-03 19:41:39 INF] bg.zk.zfp.com://COM10 <<< Ping: 9
+[2019-11-03 19:41:39 INF] Opening the com port COM10
+[2019-11-03 19:41:39 INF] bg.zk.zfp.com://COM10 >>> Pong: 40
+[2019-11-03 19:41:39 INF] bg.zk.zfp.com://COM10 <<< 02-23-6C-68-32-37-0A
+[2019-11-03 19:41:39 INF] bg.zk.zfp.com://COM10 >>> 02
+[2019-11-03 19:41:39 INF] bg.zk.zfp.com://COM10 >>> 33-6C-68-30-33-2D-31-31-2D-32-30-31-39-20-31-39-3A-34-31-32-39-0A
+[2019-11-03 19:41:39 INF] Keep Alive Background Service done.
+[2019-11-03 19:41:40 INF] Idle timer elapsed for the com port COM10
+[2019-11-03 19:41:40 INF] Closing the com port COM10
